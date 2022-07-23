@@ -2,4 +2,5 @@
 
 <h3 align="center">Site para controle de finanças pessoais.</h3>
 
-![1 (1)](https://user-images.githubusercontent.com/99914904/180620101-c216bf9d-341f-4cbf-bdb7-2de89ea8bae3.png) ![2](https://user-images.githubusercontent.com/99914904/180620150-0f993a28-4fe5-4cd8-9138-57fdd5763705.png)
+![2](https://user-images.githubusercontent.com/99914904/180620213-2ceb7268-9ffd-4be9-b62a-978779a2765e.png)
+![1](https://user-images.githubusercontent.com/99914904/180620214-b9c43dcb-b6bb-4753-a24a-a849c8879431.png)
