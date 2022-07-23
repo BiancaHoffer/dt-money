@@ -38,3 +38,9 @@
  $ yarn start
  
 ```
+
+<hr>
+
+### 🔗Quer entrar em contato comigo?
+  
+Me chame no [LinkedIn](https://www.linkedin.com/in/bianca-macedo-hoffer/).
