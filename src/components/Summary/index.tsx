@@ -29,7 +29,7 @@ export function Summary() {
         <Container>
             <div>
                 <header>
-                    <p>Incoming</p>
+                    <p>Income</p>
                     <img src={iconmeImg} alt="Income" />
                 </header>
                 <strong>

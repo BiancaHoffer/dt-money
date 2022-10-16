@@ -21,7 +21,7 @@ createServer({
         },
         {
           id: 2,
-          title:'Richmond Court Rent',
+          title:'Richmond Court',
           amount: 800,
           type: 'withdraw',
           category: 'Rent',
