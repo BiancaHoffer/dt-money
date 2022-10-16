@@ -7,14 +7,14 @@ export function TransactionTable() {
     return (
         <Container>
             <h1>Listagem</h1>
-            
+
             <table>
                 <thead>
                     <tr>
-                        <th className='Title'>Título</th>
-                        <th>Valor</th>
-                        <th>Categoria</th>
-                        <th>Data</th>
+                        <th className='Title'>Title</th>
+                        <th>Value</th>
+                        <th>Category</th>
+                        <th>Date</th>
                     </tr>
                 </thead>
 
@@ -26,14 +26,14 @@ export function TransactionTable() {
                                 <td className={transactions.type}>
                                     {transactions.type === 'withdraw' ? '- ' : ''}
 
-                                    {new Intl.NumberFormat('pt-BR', {
+                                    {new Intl.NumberFormat('en-UK', {
                                         style: 'currency',
-                                        currency: 'BRL'
+                                        currency: 'GBP'
                                     }).format(transactions.amount)}
-                                </td> 
+                                </td>
                                 <td>{transactions.category}</td>
                                 <td>
-                                     {new Intl.DateTimeFormat('pt-BR').format(
+                                     {new Intl.DateTimeFormat('en-UK').format(
                                         new Date(transactions.createdAt)
                                      )}
                                 </td>

@@ -5,7 +5,7 @@ import { createServer, Model } from 'miragejs'
 
 createServer({
   models: { //banco de dados
-      transaction: Model, 
+      transaction: Model,
   },
 
   seeds(server) {
@@ -13,18 +13,18 @@ createServer({
       transactions: [
         {
           id: 1,
-          title:'Freelancer de website',
-          amount: 6000,
+          title:'Household Income',
+          amount: 2000,
           type: 'deposit',
-          category: 'Dev',
+          category: 'Income',
           createdAt: new Date('2021-02-12 09:00:00 ')
         },
         {
           id: 2,
-          title:'Aluguel',
-          amount: 2000,
+          title:'Richmond Court Rent',
+          amount: 800,
           type: 'withdraw',
-          category: 'Casa',
+          category: 'Rent',
           createdAt: new Date('2021-02-14 11:00:00 ')
         }
       ],

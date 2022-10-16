@@ -29,29 +29,29 @@ export function Summary() {
         <Container>
             <div>
                 <header>
-                    <p>Entradas</p>
-                    <img src={iconmeImg} alt="Entradas" />
+                    <p>Incoming</p>
+                    <img src={iconmeImg} alt="Income" />
                 </header>
                 <strong>
-                    {new Intl.NumberFormat('pt-BR', {
+                    {new Intl.NumberFormat('en-UK', {
                         style: 'currency',
-                        currency: 'BRL'
-                    }).format(summary.deposits)}  
+                        currency: 'GBP'
+                    }).format(summary.deposits)}
                 </strong>
-            </div> 
+            </div>
 
             <div>
                 <header>
-                    <p>Saídas</p>
-                    <img src={outcomeImg} alt="Saídas" />
+                    <p>Expenditure</p>
+                    <img src={outcomeImg} alt="Expenditure" />
                 </header>
-                <strong>- 
-                    {new Intl.NumberFormat('pt-BR', {
+                <strong>-
+                    {new Intl.NumberFormat('en-UK', {
                         style: 'currency',
-                        currency: 'BRL'
+                        currency: 'GBP'
                     }).format(summary.withdraw)}
                 </strong>
-            </div> 
+            </div>
 
             <div style={{background: 'var(--green)', color: 'var(--shape)'}}>
                 <header>
@@ -59,12 +59,12 @@ export function Summary() {
                     <img src={totalImg} alt="Entradas" />
                 </header>
                 <strong>
-                    {new Intl.NumberFormat('pt-BR', {
+                    {new Intl.NumberFormat('en-UK', {
                         style: 'currency',
-                        currency: 'BRL'
+                        currency: 'GBP'
                     }).format(summary.total)}
                 </strong>
-            </div> 
+            </div>
         </Container>
     );
 }
